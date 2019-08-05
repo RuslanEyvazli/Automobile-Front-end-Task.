@@ -1,0 +1,212 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section styles{
+
+    <!--page level css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Public/css/slick.css">
+    <link rel="stylesheet" href="~/Public/css/slick-theme.css">
+    <link rel="stylesheet" href="~/Public/sass/style.css">
+
+
+}
+
+
+<main>
+    <section class="container-fluid slider p-0">
+        <div class="row m-0">
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner slider-inner">
+                    <div class="carousel-item active slideItem">
+                        <img src="~/Public/image/bg-page-title.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="firstSlide">
+                            <h1>Yaglama</h1>
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nulla, sunt doloribus fugit non quam vero qui, officiis harum inventore laudantium nam dolorum! Quas temporibus consequuntur pariatur repellat eius veritatis?</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item slideItem">
+                        <img src="~/Public/image/slider-1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="firstSlide">
+                            <h1>aksesuarlarin Qurasdirilmasi</h1>
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nulla, sunt doloribus fugit non quam vero qui, officiis harum inventore laudantium nam dolorum! Quas temporibus consequuntur pariatur repellat eius veritatis?</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item slideItem">
+                        <img src="~/Public/image/slider-2.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="firstSlide">
+                            <h1>Masin hisseleri</h1>
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nulla, sunt doloribus fugit non quam vero qui, officiis harum inventore laudantium nam dolorum! Quas temporibus consequuntur pariatur repellat eius veritatis?</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid bg">
+        <div class="container">
+            <div class="row xidmet">
+                <div class="xidmetSectionHead col-lg-12">
+                    <h1>ÜSTÜN TUTURUQ</h1>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="xidmetDiv">
+                        <div>
+                            <i class="fas fa-certificate"></i>
+                            <span>01</span>
+                        </div>
+                        <div>
+                            <h5>INTERNATIONAL STANDARDS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quaerat suscipit excepturi repudiandae corrupti exercitationem distinctio saepe repellendus reiciendis fuga, recusandae commodi, veniam sint vero. Qui inventore accusamus accusantium nostrum.</p>
+                        </div>
+                        <div>
+                            <a href="@Url.Action("About", "Home")">Go to view</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="xidmetDiv">
+                        <div>
+                            <i class="fas fa-user-shield"></i>
+                            <span>02</span>
+                        </div>
+                        <div>
+                            <h5>WE LOVE OUR CLIENT</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quaerat suscipit excepturi repudiandae corrupti exercitationem distinctio saepe repellendus reiciendis fuga, recusandae commodi, veniam sint vero. Qui inventore accusamus accusantium nostrum.</p>
+                        </div>
+                        <div>
+                            <a href="@Url.Action("About", "Home")">Go to view</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="xidmetDiv">
+                        <div>
+                            <i class="fas fa-car-alt"></i>
+                            <span>03</span>
+                        </div>
+                        <div>
+                            <h5>ONLY ORIGINAL PARTS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quaerat suscipit excepturi repudiandae corrupti exercitationem distinctio saepe repellendus reiciendis fuga, recusandae commodi, veniam sint vero. Qui inventore accusamus accusantium nostrum.</p>
+                        </div>
+                        <div>
+                            <a href="@Url.Action("About", "Home")">Go to view</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="container">
+        <div class="row ">
+            <div class="col-lg-12 serviceFirst">
+                <h1>XİDMƏTLƏR</h1>
+            </div>
+
+            <div class="col-lg-6 ">
+                <div class="row service">
+                    <div class="col-lg-6">
+                        <img src="~/Public/image/yag.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <h6>YAĞLAMA</h6>
+
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur ,
+                                sed do eiusmod tempor incididunt
+                            </p>
+                            <a href="@Url.Action("Index", "Service")/#Firstservice">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 ">
+                <div class="row service">
+                    <div class="col-lg-6">
+                        <img src="~/Public/image/maruti-car-accessories-500x500.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <h6>AKSESUARLARIN QURAŞDIRILMASI</h6>
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur ,
+                                sed do eiusmod tempor incididunt
+                            </p>
+                            <a href="@Url.Action("Index", "Service")/#Secondservice">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row homeAbout">
+            <div class="col-lg-12 overlay">
+                <div class="overlayContent">
+                    <h1>AUTO PLANET</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptatibus quia dolore officiis sequi, animi laboriosam eos enim culpa nihil nesciunt excepturi laudantium minima mollitia, ratione dolorem magni, porro dicta.
+                    </p>
+                    <a href="@Url.Action("About", "Home")">Ətraflı</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row marka">
+            <div><img src="~/Public/image/audi.jpg" alt=""></div>
+            <div><img src="~/Public/image/land.jpg" alt=""></div>
+            <div><img src="~/Public/image/mers.jpg" alt=""></div>
+            <div><img src="~/Public/image/wosvogen.jpg" alt=""></div>
+            <div><img src="~/Public/image/bmw.jpg" alt=""></div>
+            <div><img src="~/Public/image/716649W8sJL._SL1330_.jpg" alt=""></div>
+
+
+        </div>
+    </section>
+
+</main>
+
+@section scripts{
+
+    <script src="~/Public/js/jquery-3.4.1.js"></script>
+    <script src="~/Public/js/slick.js"></script>
+    <script src="~/Public/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="~/Public/js/checkout.js"></script>
+    <script src="~/Public/js/main.js"></script>
+
+
+}
